@@ -3,9 +3,11 @@
 A living document describing the currently-available features of the Frazier Handmade Goods API, as well as suggesting best practices for integration with the e-commerce storefront.
 
 >💡 This file usually lives in a private repo for the Frazier Handmade Goods e-commerce site, but has been copied here for use as a writing sample! The Frazier Handmade Goods repo is divided into server and client folders, where `server` contains the API routes and `client` contains code for the front-end. This guide is usually included in the server folder, where it can easily be found by anyone who needs to use the API<br/>
->![The file structure of the Frazier Handmade Goods repo, showing a client, node_module, and server folders. A readme.md file is nested inside the server folder and circled in red](<Screenshot 2024-05-09 at 4.37.42 PM.png>)
+>![The file structure of the Frazier Handmade Goods repo, showing a client, node_module, and server folders. A readme.md file is nested inside the server folder and circled in red](<fileStructure.png>)
 
 ## Table of Contents
+- [Frazier Handmade Goods API Guide](#frazier-handmade-goods-api-guide)
+  - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Data Structure](#data-structure)
     - [Requirements for Certain Values:](#requirements-for-certain-values)
@@ -512,7 +514,7 @@ Test it out! You should get an alert letting you know your image has been succes
 
 Recall from the [data structure](#data-structure) of Items that the `imgs` key needs to be an array of image URLs. These URLs can be accessed on the return body of the `put` method, which we can see if we `console.log(newBlob)` in the code that added an image to the Blob Store:
 
-![An image of the console, showing the request body with contentDisposition, contentType, downloadUrl, pathname, and url keys and their attendant values. url is circled in red](<Screenshot 2024-05-09 at 12.24.31 PM.png>)
+![An image of the console, showing the request body with contentDisposition, contentType, downloadUrl, pathname, and url keys and their attendant values. url is circled in red](<consoleLog.png>)
 
 We can avoid having to make another API call to the Blob Store to read this data if we take the URL directly from the request body and add it to the `imgs` array of the new Item we want to add to the database. This can be accomplished with a two-part form.
 
