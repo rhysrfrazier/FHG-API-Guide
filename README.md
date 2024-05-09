@@ -6,8 +6,6 @@ A living document describing the currently-available features of the Frazier Han
 >![The file structure of the Frazier Handmade Goods repo, showing a client, node_module, and server folders. A readme.md file is nested inside the server folder and circled in red](<fileStructure.png>)
 
 ## Table of Contents
-- [Frazier Handmade Goods API Guide](#frazier-handmade-goods-api-guide)
-  - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Data Structure](#data-structure)
     - [Requirements for Certain Values:](#requirements-for-certain-values)
