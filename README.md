@@ -26,6 +26,7 @@ A living document describing the currently-available features of the Frazier Han
   - [Using the Blob Store for Images](#using-the-blob-store-for-images)
     - [Adding a New Image - Walkthrough](#adding-a-new-image---walkthrough)
     - [Integration with Item Creation](#integration-with-item-creation)
+  - [Additional Help](#additional-help)
 
 ## Getting Started
 
@@ -693,3 +694,7 @@ const addItem = (data) => {
 <br/>
 
 Whether you use a form component library or crete your own forms from scratch, you should be able to follow this general process to use the urls from the blob return body for the Item `imgs` keyword.
+
+## Additional Help
+
+If you have any questions, feel free to email me at <rhysrfrazier@gmail.com>!
