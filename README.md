@@ -694,4 +694,4 @@ Whether you use a form component library or crete your own forms from scratch, y
 
 ## Additional Help
 
-If you have any questions, feel free to email me at <rhysrfrazier@gmail.com>!
+If you have any questions, feel free to email me at <rhysrfrazier@gmail.com>
