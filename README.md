@@ -1,9 +1,14 @@
 # Frazier Handmade Goods API Guide
 
-A living document describing the currently available features of the Frazier Handmade Goods API, as well as suggesting best practices for integration with the e-commerce storefront.
+A living document describing the currently-available features of the Frazier Handmade Goods API, as well as suggesting best practices for integration with the e-commerce storefront.
+
+>💡 This file usually lives in a private repo for the Frazier Handmade Goods e-commerce site, but has been copied here for use as a writing sample! The Frazier Handmade Goods repo is divided into a server and client folder, where "server" contains the API routes and "client" contains code for the front-end. This guide is usually included iin the server folder, where it can easily be found by anyone who needs to use the API<br/>
+>![The file structure of the Frazier Handmade Goods repo, showing a client, node_module, and server folders. A readme.md file is nested inside the server folder and circled in red](<Screenshot 2024-05-09 at 4.37.42 PM.png>)
 
 ## Table of Contents
 
+- [Frazier Handmade Goods API Guide](#frazier-handmade-goods-api-guide)
+  - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
   - [Data Structure](#data-structure)
     - [Requirements for Certain Values:](#requirements-for-certain-values)
