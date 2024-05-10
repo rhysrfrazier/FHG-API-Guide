@@ -226,7 +226,7 @@ The API has endpoints for full CRUD functionality, with a number of helpful opti
 
 ### Create a New Item
 
-To create a new item, make a POST request to `BASEURL/items` with JSON data for your new item in the request body. For example, if you're using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), your code may look something like this:
+To create a new item, make a POST request to `API_BASEURL/items` with JSON data for your new item in the request body. For example, if you're using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), your code may look something like this:
 
 ```JS
 async function addItem(data) {
